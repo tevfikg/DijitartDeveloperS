@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write to us</title>
+    <style>
+        html body {
+    background-color:#1a1a1a;
+    color:#f0edee;
+    box-sizing:border-box;
+    font-family: system-ui;
+}
+h2{
+    margin-left: 2rem;
+    text-decoration: underline solid 2px;
+}
+h4 {
+    margin-top: 2em;
+}
+.container {
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+input {
+    width: fit-content;
+}
+
+table {
+    width: fit-content;
+    height: fit-content;
+}
+
+.larger-input{
+    width: 8em; 
+}
+
+    </style>
+    <title>Her daim pozitif</title>
+</head>
+<tr>
+    <h2>Your feedback and suggestions are valuable to us.</h2>
+
+    <div class="container">
+        <form action="https://formsubmit.co/itevfikg@gmail.com" method="POST">
+            <table> 
+                <tr>
+                        <th><label for="first_name">Name</label></th>
+                        <th><label for="last_name">Surname</label></th>
+                        <th><label for="e-mail">E-Mail</label></th>
+                </tr>
+                <tr>
+                        <td><input id="input-1" type="text" name="first_name" placeholder="Name" required></td>
+                        <td><input id="input-2" type="text" name="last_name" placeholder="Surname" required></td>
+                        <td><input id="input-3" type="email" name="e-mail" placeholder="Your E-mail" required></td> 
+                </tr>
+            </table>
+            
+            <h4>What is your Project İdea? We develop for you...</h4>
+            <!-- textarea input -->
+            <textarea id="message" name="message" rows="4" cols="54" required></textarea>
+            <br>
+            <h4>How you found our servises?</h4>
+            <form action="/action_page.php">
+                <label for="rating">From left to right increasing-></label>
+                <input type="range" id="rating" name="rating" min="0" max="50">
+                <input type="submit">
+            </form> 
+    </div>
+</body>
+</html>
